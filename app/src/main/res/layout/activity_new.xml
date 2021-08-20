@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:background="#FBFBFB"
+    android:background="#292222"
     android:orientation="vertical"
     tools:context=".NewActivity">
 
 
     <ScrollView
-        android:background="@drawable/ic_design"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -62,8 +61,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    >
+                    android:orientation="horizontal">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -171,6 +169,62 @@
             </HorizontalScrollView>
 
             <ImageView
+                android:id="@+id/two"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/two" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_heart"
+                    android:drawablePadding="5dp"
+                    android:text="like"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_mes"
+                    android:drawablePadding="10dp"
+                    android:text="comment"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_share"
+                    android:drawablePadding="10dp"
+                    android:text="share"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <ImageView
                 android:id="@+id/one"
                 android:layout_width="400dp"
                 android:layout_height="200dp"
@@ -182,10 +236,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginTop="5dp"
-
-                >
+                android:orientation="horizontal">
 
 
                 <TextView
@@ -229,7 +281,121 @@
                     android:textColor="@color/white"
                     android:textSize="14sp" />
 
+
             </LinearLayout>
+
+            <ImageView
+                android:id="@+id/three"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/three" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_heart"
+                    android:drawablePadding="5dp"
+                    android:text="like"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_mes"
+                    android:drawablePadding="10dp"
+                    android:text="comment"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_share"
+                    android:drawablePadding="10dp"
+                    android:text="share"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/four"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/four" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_heart"
+                    android:drawablePadding="5dp"
+                    android:text="like"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_mes"
+                    android:drawablePadding="10dp"
+                    android:text="comment"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_share"
+                    android:drawablePadding="10dp"
+                    android:text="share"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
         </LinearLayout>
 
     </ScrollView>
