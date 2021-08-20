@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String username = logintext.getText().toString();
                 String password = passwordtext.getText().toString();
-                if (username.equals("user") && (password.equals("123456"))) {
+                if (username.equals("waseem") && (password.equals("123456"))) {
                     Toast.makeText(MainActivity.this, "welcome", Toast.LENGTH_SHORT).show();
                     Intent intent= new Intent(getApplicationContext(),NewActivity.class);
                     startActivity(intent);
