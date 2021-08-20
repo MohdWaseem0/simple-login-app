@@ -13,7 +13,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/login_text"
@@ -23,7 +23,9 @@
                 android:layout_marginTop="200dp"
                 android:layout_marginRight="50dp"
                 android:text="USER NAME"
-                android:textSize="24sp" />
+                android:textColor="#292222"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/login"
@@ -41,7 +43,9 @@
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="50dp"
                 android:text="Password"
-                android:textSize="24sp" />
+                android:textColor="#292222"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/password"
@@ -60,10 +64,11 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="50dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/roboto_bold"
+                android:hapticFeedbackEnabled="false"
                 android:text="login"
-                android:textSize="24sp"
-
-                />
+                android:textSize="24sp" />
         </LinearLayout>
     </ScrollView>
 
